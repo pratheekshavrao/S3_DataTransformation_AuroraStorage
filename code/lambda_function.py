@@ -14,8 +14,8 @@ currency_conversion = {'USD': 1, 'CAD': 0.79, 'MXN': 0.05}
 
 #database declarations
 database_name = 'test_rds'
-secret_store_arn = ''
-db_cluster_arn = ''
+secret_store_arn = 'Insert ARN here'
+db_cluster_arn = 'Insert ARN here'
 
 def process_record(record):
 #bill amount is the last field in the list
