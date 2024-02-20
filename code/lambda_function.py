@@ -14,8 +14,8 @@ currency_conversion = {'USD': 1, 'CAD': 0.79, 'MXN': 0.05}
 
 #database declarations
 database_name = 'test_rds'
-secret_store_arn = 'arn:aws:secretsmanager:us-east-1:471376517949:secret:rds-db-credentials/cluster-B6GF6FILNTLNRNCXROPLS7GRNQ/test_username/1705711603182-pR42by'
-db_cluster_arn = 'arn:aws:rds:us-east-1:471376517949:cluster:test-db-cluster'
+secret_store_arn = ''
+db_cluster_arn = ''
 
 def process_record(record):
 #bill amount is the last field in the list
